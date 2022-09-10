@@ -4,7 +4,8 @@
     width: 360px;
     height: 800px;
 
-    background: #f8b7b7;
+
+    background: #ffffff;
     border: 1px solid #000000;
 }
 
@@ -16,13 +17,14 @@
     top: 29px;
     background: #ffffff;
 
+    border: 0.2px solid #C1C1C1;
     filter: drop-shadow(0px 2px 2px rgba(193, 193, 193, 0.25));
 }
 
 .subcontainer-1 {
     position: absolute;
 left: 2.78%;
-right: 8px;
+right: 7px;
 top: 3.62%;
 bottom: 93.43%;
 
@@ -132,7 +134,7 @@ color: #000000;
     box-sizing: border-box;
 
 position: absolute;
-width: 337px;
+width: 340px;
 height: 360px;
 left: 12px;
 top: 200px;
@@ -232,7 +234,7 @@ color: #C1C1C1;
 .thread-1 {
     box-sizing: border-box;
     position: absolute;
-    width: 337px;
+    width: 340px;
     height: 23.13px;
     /* left: 13px; */
     top: 10px;
@@ -264,7 +266,7 @@ color: #C1C1C1;
 .subthread-box {
     position: absolute;
     top: 50px;
-    width: 337px;
+    width: 340px;
     height: 80px;
 
     border: 0.1px solid rgba(151, 149, 149, 0.205);
@@ -294,7 +296,7 @@ color: #C1C1C1;
     box-sizing: border-box;
 
     position: absolute;
-    width: 337px;
+    width: 340px;
     height: 21px;
     
     background: rgba(0, 0, 0, 0.05);
@@ -305,7 +307,8 @@ color: #C1C1C1;
 
 .eth-margins {
     position: absolute;
-    width: 330px;
+    left: -2px;
+    width: 334px;
     height: 59.26px;
     
     display: block;
@@ -332,4 +335,267 @@ color: #C1C1C1;
     align-items: center;
     
     color: #000000;
+}
+
+.interpret-button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 67px;
+    height: 20px;
+    left: 3.61%;
+    right: 77.78%;
+    top: 43.25%;
+    bottom: 54.25%;
+    
+    background: rgba(0, 41, 255, 0.02);
+    border: 0.5px solid #0029FF;
+    box-shadow: 0px 2px 2px rgba(193, 193, 193, 0.25);
+    border-radius: 3px;
+}
+
+.interpret-text {
+    position: absolute;
+    top: 43.85%;
+    bottom: 54.85%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0029FF;
+}
+
+.reger-button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    left: 155px;
+    top: 155px;
+    
+    border: 0.5px solid #0029FF;
+    box-shadow: 0px 2px 2px rgba(193, 193, 193, 0.25);
+    border-radius: 2px;
+}
+
+.plus-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 12px;
+    align-items: center;
+    text-align: center;
+    
+    color: #0029FF;
+}
+
+.st-button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 67px;
+    height: 20px;
+    left: 77.5%;
+    right: 3.33%;
+    top: 43.38%;
+    bottom: 54.12%;
+    
+    background: rgba(0, 41, 255, 0.02);
+    border: 0.5px solid #0029FF;
+    box-shadow: 0px 2px 2px rgba(193, 193, 193, 0.25);
+    border-radius: 2px;
+}
+
+.st-text {
+    position: absolute;
+    top: 43.97%;
+    bottom: 54.73%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0029FF;
+}
+
+.reger-text {
+    position: absolute;
+    left: 155px;
+    /* right: 43.05%; */
+    top: 182px;
+    bottom: 52.95%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0029FF;
+    
+    text-shadow: 0px 2px 2px rgba(193, 193, 193, 0.25);
+}
+
+.summary {
+    position: absolute;
+    width: 340px;
+    height: 80px;
+    top: 193px;
+    
+    border: 0.1px solid rgba(151, 149, 149, 0.205);
+    filter: drop-shadow(0px 2px 2px rgba(193, 193, 193, 0.25));
+}
+
+.summary-a {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 340px;
+    height: 23px;
+    left: -1px;
+    
+    background: rgba(0, 0, 0, 0.05);
+    border: 0.1px solid rgba(151, 149, 149, 0.205);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 2px 2px 0px 0px;
+}
+
+.sa-text {
+    position: absolute;
+    width: 127.48px;
+    height: 17.9px;
+    margin-left: 3px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.sum-margins {
+    position: absolute;
+    top: 23px;
+    left: -1px;
+    width: 334px;
+    height: 57.31px;
+    
+    background: #FFFFFF;
+    border-radius: 2px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #999999;
+
+}
+
+.tc-text {
+    position: absolute;
+    width: 119px;
+    height: 15px;
+    left: 20px;
+    top: 493px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: rgba(29, 33, 64, 0.86);
+}
+
+.circle {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 25px;
+    top: 516px;
+}
+
+.sarvepalli-text {
+    position: absolute;
+    left: 15.28%;
+    right: 57.22%;
+    top: 525px;
+    bottom: 35.12%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 09px;
+    line-height: 10px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    
+    color: #021442;
+}
+
+.plus2-text {
+    position: absolute;
+    left: 8.89%;
+    right: 89.09%;
+    top: 515px;
+    bottom: 35.85%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #0029FF;
+}
+
+.se-drop {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    left: 238px;
+    top: 493px;
+
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.thread-button {
+    position: absolute;
+    width: 68px;
+    height: 20px;
+    left: 280px;
+    top: 531px;
+    
+    filter: drop-shadow(0px 2px 2px rgba(193, 193, 193, 0.25));
 }
