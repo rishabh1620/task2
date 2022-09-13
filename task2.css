@@ -22,11 +22,13 @@
 }
 
 .subcontainer-1 {
-    position: absolute;
-left: 2.78%;
+position: absolute;
+height: 23.57px;
+width: 340px;
+/* left: 2.78%;
 right: 7px;
 top: 3.62%;
-bottom: 93.43%;
+bottom: 93.43%; */
 
 background: #0029FF;
 border-radius: 2px 2px 0px 0px;
@@ -276,8 +278,8 @@ color: #C1C1C1;
 
 .finger-icon {
     position: absolute;
-    left: 330px;
-    top: 57px;
+    right: 6.17px;
+    top: 25.58px;
 }
 
 .arrow-png {
